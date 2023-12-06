@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.COAL_BRIQUETTE);
+                        //Tools
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.RUBY_SWORD);
                         entries.add(ModItems.RUBY_SHOVEL);
@@ -45,6 +46,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
+                        //Armor
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
 
                     }).build());
     public static void registerItemGroups(){
