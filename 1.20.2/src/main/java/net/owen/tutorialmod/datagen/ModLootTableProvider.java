@@ -2,6 +2,10 @@ package net.owen.tutorialmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.BlockState;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.predicate.StatePredicate;
+import net.owen.tutorialmod.block.Custom.TomatoCropBlock;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItems;
 import net.minecraft.block.Block;
@@ -46,6 +50,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
         addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
+
+        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create()
+                .exactMatch(TomatoCropBlock.AGE, 5));
+        addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder));
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

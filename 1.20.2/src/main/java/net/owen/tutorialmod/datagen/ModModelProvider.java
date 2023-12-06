@@ -6,6 +6,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
+import net.owen.tutorialmod.block.Custom.TomatoCropBlock;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItems;
 
@@ -34,6 +35,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3 ,4 ,5);
     }
 
     @Override

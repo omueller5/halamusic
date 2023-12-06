@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.owen.tutorialmod.TutorialMod;
+import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.custom.MetalDetectorItem;
 import net.owen.tutorialmod.item.custom.ModArmorItem;
 
@@ -39,6 +40,8 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);

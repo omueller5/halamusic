@@ -5,6 +5,7 @@
 
   "item.tutorialmod.tomato": "Tomato",
   "item.tutorialmod.coal_briquette": "Coal Briquette",
+  "item.tutorialmod.tomato_seeds": "Tomato Seeds",
 
   "item.tutorialmod.ruby_staff": "Ruby Staff",
 
@@ -14,10 +15,10 @@
   "item.tutorialmod.ruby_sword": "Ruby Sword",
   "item.tutorialmod.ruby_hoe": "Ruby Hoe",
 
-  "item.tutorialmod.ruby_helmet": "Ruby Hoe",
-  "item.tutorialmod.ruby_chestplate": "Ruby Hoe",
-  "item.tutorialmod.ruby_leggings": "Ruby Hoe",
-  "item.tutorialmod.ruby_boots": "Ruby Hoe",
+  "item.tutorialmod.ruby_helmet": "Ruby Helmet",
+  "item.tutorialmod.ruby_chestplate": "Ruby Chestplate",
+  "item.tutorialmod.ruby_leggings": "Ruby Leggings",
+  "item.tutorialmod.ruby_boots": "Ruby Boots",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
