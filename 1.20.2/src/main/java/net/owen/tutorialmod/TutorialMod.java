@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItemGroups;
 import net.owen.tutorialmod.item.ModItems;
+import net.owen.tutorialmod.sound.ModSounds;
 import net.owen.tutorialmod.util.ModCustomTrades;
 import net.owen.tutorialmod.util.ModLootTableModifiers;
 import net.owen.tutorialmod.villager.ModVillagers;
@@ -28,6 +29,7 @@ public class TutorialMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 
 		ModVillagers.registerVillagers();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
