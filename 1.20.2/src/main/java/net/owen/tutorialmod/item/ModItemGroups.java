@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.COAL_BRIQUETTE);
+                        entries.add(ModItems.I_PROMISE_MUSIC_DISC);
                         //Tools
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.RUBY_SWORD);

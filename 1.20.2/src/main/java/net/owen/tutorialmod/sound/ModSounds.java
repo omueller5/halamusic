@@ -14,6 +14,7 @@ public class ModSounds {
     private static final SoundEvent SOUND_BLOCK_PLACE = registerSoundEvent("sound_block_place");
     private static final SoundEvent SOUND_BLOCK_HIT = registerSoundEvent("sound_block_hit");
     private static final SoundEvent SOUND_BLOCK_FALL = registerSoundEvent("sound_block_fall");
+    public static final SoundEvent I_PROMISE = registerSoundEvent("i_promise");
 
     public static final BlockSoundGroup SOUND_BLOCK_SOUNDS = new BlockSoundGroup(1f, 1f,
             ModSounds.SOUND_BLOCK_BREAK,

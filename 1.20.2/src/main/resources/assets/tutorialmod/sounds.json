@@ -34,5 +34,13 @@
     "sounds": [
       "tutorialmod:sound_block_fall"
     ]
+  },
+  "i_promise": {
+    "sounds": [
+      {
+        "name": "tutorialmod:i_promise",
+        "stream": true
+      }
+    ]
   }
 }

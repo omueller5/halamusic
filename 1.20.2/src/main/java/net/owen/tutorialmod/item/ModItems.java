@@ -11,6 +11,7 @@ import net.owen.tutorialmod.TutorialMod;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.custom.MetalDetectorItem;
 import net.owen.tutorialmod.item.custom.ModArmorItem;
+import net.owen.tutorialmod.sound.ModSounds;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -46,6 +47,7 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+    public static final Item I_PROMISE_MUSIC_DISC = registerItem("i_promise_music_disc", new MusicDiscItem(7, ModSounds.I_PROMISE, new FabricItemSettings().maxCount(1), 212));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);
