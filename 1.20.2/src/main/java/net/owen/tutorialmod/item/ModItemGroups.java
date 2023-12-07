@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.RUBY_BUTTON);
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DAHLIA);
                         //Ores
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
