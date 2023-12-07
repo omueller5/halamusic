@@ -26,7 +26,7 @@ public class SoundBlock extends Block {
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos,
                               PlayerEntity player, Hand hand, BlockHitResult hit) {
-        world.playSound(player, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_PLACE, SoundCategory.BLOCKS, 50f, 1f);
+        world.playSound(player, pos, SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE, SoundCategory.BLOCKS, 100f, 1f);
         return ActionResult.SUCCESS;
     }
 
