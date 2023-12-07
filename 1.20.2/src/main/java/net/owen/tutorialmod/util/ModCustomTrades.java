@@ -9,7 +9,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
+import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItems;
+import net.owen.tutorialmod.villager.ModVillagers;
 
 public class ModCustomTrades {
     public static void registerCustomTrades() {
@@ -51,6 +53,22 @@ public class ModCustomTrades {
                     new ItemStack(ModItems.RAW_RUBY, 1),
                     new ItemStack(ModItems.COAL_BRIQUETTE, 1),
                     32, 12, 0.075f));
+        });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(ModItems.CORN, 32),
+                    new ItemStack(ModBlocks.SOUND_BLOCK, 2),
+                    3, 15, 0.075f));
+        });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(ModItems.RUBY_PICKAXE, 1),
+                    new ItemStack(ModItems.RUBY_AXE, 1),
+                    23, 13, 0.075f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(ModItems.RUBY_AXE, 1),
+                    new ItemStack(ModItems.RUBY_PICKAXE, 1),
+                    23, 13, 0.075f));
         });
     }
 }
