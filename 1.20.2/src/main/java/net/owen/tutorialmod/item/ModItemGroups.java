@@ -25,6 +25,16 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.COAL_BRIQUETTE);
                         entries.add(ModItems.I_PROMISE_MUSIC_DISC);
+                        entries.add(ModItems.FAR_AWAY_MUSIC_DISC);
+                        entries.add(ModItems.WORSHIP_ME_MUSIC_DISC);
+                        entries.add(ModItems.WE_ALL_KNOW_MUSIC_DISC);
+                        entries.add(ModItems.EDENS_DUST_MUSIC_DISC);
+                        entries.add(ModItems.CHARMING_MUSIC_DISC);
+                        entries.add(ModItems.JUST_BETTER_MUSIC_DISC);
+                        entries.add(ModItems.KILL_ME_MUSIC_DISC);
+                        entries.add(ModItems.FEELING_GOOD_MUSIC_DISC);
+                        entries.add(ModItems.WE_ARE_ONE_MUSIC_DISC);
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
                         //Tools
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModItems.RUBY_SWORD);

@@ -15,7 +15,15 @@ public class ModSounds {
     private static final SoundEvent SOUND_BLOCK_HIT = registerSoundEvent("sound_block_hit");
     private static final SoundEvent SOUND_BLOCK_FALL = registerSoundEvent("sound_block_fall");
     public static final SoundEvent I_PROMISE = registerSoundEvent("i_promise");
-
+    public static final SoundEvent FAR_AWAY = registerSoundEvent("far_away");
+    public static final SoundEvent WORSHIP_ME = registerSoundEvent("worship_me");
+    public static final SoundEvent WE_ALL_KNOW = registerSoundEvent("we_all_know");
+    public static final SoundEvent EDENS_DUST = registerSoundEvent("edens_dust");
+    public static final SoundEvent CHARMING = registerSoundEvent("charming");
+    public static final SoundEvent JUST_BETTER = registerSoundEvent("just_better");
+    public static final SoundEvent KILL_ME = registerSoundEvent("kill_me");
+    public static final SoundEvent FEELING_GOOD = registerSoundEvent("feeling_good");
+    public static final SoundEvent WE_ARE_ONE = registerSoundEvent("we_are_one");
     public static final BlockSoundGroup SOUND_BLOCK_SOUNDS = new BlockSoundGroup(1f, 1f,
             ModSounds.SOUND_BLOCK_BREAK,
             ModSounds.SOUND_BLOCK_STEP,

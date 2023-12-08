@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.owen.tutorialmod.TutorialMod;
 import net.owen.tutorialmod.block.ModBlocks;
+import net.owen.tutorialmod.entity.ModEntities;
 import net.owen.tutorialmod.item.custom.MetalDetectorItem;
 import net.owen.tutorialmod.item.custom.ModArmorItem;
 import net.owen.tutorialmod.sound.ModSounds;
@@ -47,7 +48,28 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
-    public static final Item I_PROMISE_MUSIC_DISC = registerItem("i_promise_music_disc", new MusicDiscItem(7, ModSounds.I_PROMISE, new FabricItemSettings().maxCount(1), 212));
+    public static final Item I_PROMISE_MUSIC_DISC = registerItem("i_promise_music_disc", new MusicDiscItem(7, ModSounds.I_PROMISE,
+            new FabricItemSettings().maxCount(1), 215));
+    public static final Item FAR_AWAY_MUSIC_DISC = registerItem("far_away_music_disc", new MusicDiscItem(7, ModSounds.FAR_AWAY,
+            new FabricItemSettings().maxCount(1), 225));
+    public static final Item WORSHIP_ME_MUSIC_DISC = registerItem("worship_me_music_disc", new MusicDiscItem(7, ModSounds.WORSHIP_ME,
+            new FabricItemSettings().maxCount(1), 248));
+    public static final Item WE_ALL_KNOW_MUSIC_DISC = registerItem("we_all_know_music_disc", new MusicDiscItem(7, ModSounds.WE_ALL_KNOW,
+            new FabricItemSettings().maxCount(1), 205));
+    public static final Item EDENS_DUST_MUSIC_DISC = registerItem("edens_dust_music_disc", new MusicDiscItem(7, ModSounds.EDENS_DUST,
+            new FabricItemSettings().maxCount(1), 256));
+    public static final Item CHARMING_MUSIC_DISC = registerItem("charming_music_disc", new MusicDiscItem(7, ModSounds.CHARMING,
+            new FabricItemSettings().maxCount(1), 186));
+    public static final Item JUST_BETTER_MUSIC_DISC = registerItem("just_better_music_disc", new MusicDiscItem(7, ModSounds.JUST_BETTER,
+            new FabricItemSettings().maxCount(1), 175));
+    public static final Item KILL_ME_MUSIC_DISC = registerItem("kill_me_music_disc", new MusicDiscItem(7, ModSounds.KILL_ME,
+            new FabricItemSettings().maxCount(1), 229));
+    public static final Item FEELING_GOOD_MUSIC_DISC = registerItem("feeling_good_music_disc", new MusicDiscItem(7, ModSounds.FEELING_GOOD,
+            new FabricItemSettings().maxCount(1), 77));
+    public static final Item WE_ARE_ONE_MUSIC_DISC = registerItem("we_are_one_music_disc", new MusicDiscItem(7, ModSounds.WE_ARE_ONE,
+            new FabricItemSettings().maxCount(1), 260));
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);

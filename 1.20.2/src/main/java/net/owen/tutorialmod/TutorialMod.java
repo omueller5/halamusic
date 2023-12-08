@@ -2,8 +2,12 @@ package net.owen.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.owen.tutorialmod.block.ModBlocks;
+import net.owen.tutorialmod.entity.ModEntities;
+import net.owen.tutorialmod.entity.custom.PorcupineEntity;
 import net.owen.tutorialmod.item.ModItemGroups;
 import net.owen.tutorialmod.item.ModItems;
 import net.owen.tutorialmod.sound.ModSounds;
@@ -31,6 +35,9 @@ public class TutorialMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 		ModSounds.registerSounds();
 
+		ModEntities.registerModEntities();
+
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }

@@ -18,8 +18,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.RUBY_HELMET, ModItems.RUBY_CHESTPLATE, ModItems.RUBY_LEGGINGS, ModItems.RUBY_BOOTS);
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.I_PROMISE_MUSIC_DISC);
+                .add(ModItems.I_PROMISE_MUSIC_DISC, ModItems.FAR_AWAY_MUSIC_DISC, ModItems.WORSHIP_ME_MUSIC_DISC, ModItems.WE_ALL_KNOW_MUSIC_DISC,
+                        ModItems.EDENS_DUST_MUSIC_DISC, ModItems.CHARMING_MUSIC_DISC, ModItems.JUST_BETTER_MUSIC_DISC, ModItems.KILL_ME_MUSIC_DISC,
+                        ModItems.FEELING_GOOD_MUSIC_DISC, ModItems.WE_ARE_ONE_MUSIC_DISC);
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
-                .add(ModItems.I_PROMISE_MUSIC_DISC);
+                .add(ModItems.I_PROMISE_MUSIC_DISC, ModItems.FAR_AWAY_MUSIC_DISC, ModItems.WORSHIP_ME_MUSIC_DISC, ModItems.WE_ALL_KNOW_MUSIC_DISC,
+                        ModItems.EDENS_DUST_MUSIC_DISC, ModItems.CHARMING_MUSIC_DISC, ModItems.JUST_BETTER_MUSIC_DISC, ModItems.KILL_ME_MUSIC_DISC,
+                        ModItems.FEELING_GOOD_MUSIC_DISC, ModItems.WE_ARE_ONE_MUSIC_DISC);
     }
 }

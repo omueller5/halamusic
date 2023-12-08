@@ -56,9 +56,47 @@ public class ModCustomTrades {
         });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(ModItems.CORN, 32),
-                    new ItemStack(ModBlocks.SOUND_BLOCK, 2),
+                    new ItemStack(Items.EMERALD, 32),
+                    new ItemStack(Items.MUSIC_DISC_OTHERSIDE, 1),
+                    new ItemStack(ModItems.I_PROMISE_MUSIC_DISC, 1),
                     3, 15, 0.075f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 32),
+                    new ItemStack(Items.MUSIC_DISC_OTHERSIDE, 1),
+                    new ItemStack(ModItems.FAR_AWAY_MUSIC_DISC, 1),
+                    3, 15, 0.075f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 6),
+                    new ItemStack(ModItems.WORSHIP_ME_MUSIC_DISC, 6),
+                    6, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.WE_ALL_KNOW_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.EDENS_DUST_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.CHARMING_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.JUST_BETTER_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.KILL_ME_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.FEELING_GOOD_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 8),
+                    new ItemStack(ModItems.WE_ARE_ONE_MUSIC_DISC, 1),
+                    2, 7, 0.05f));
         });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2, factories -> {
             factories.add((entity, random) -> new TradeOffer(

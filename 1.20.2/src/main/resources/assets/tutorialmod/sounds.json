@@ -42,5 +42,77 @@
         "stream": true
       }
     ]
+  },
+  "far_away": {
+    "sounds": [
+      {
+        "name": "tutorialmod:far_away",
+        "stream": true
+      }
+    ]
+  },
+  "worship_me": {
+    "sounds": [
+      {
+        "name": "tutorialmod:worship_me",
+        "stream": true
+      }
+    ]
+  },
+  "we_all_know": {
+    "sounds": [
+      {
+        "name": "tutorialmod:we_all_know",
+        "stream": true
+      }
+    ]
+  },
+  "edens_dust": {
+    "sounds": [
+      {
+        "name": "tutorialmod:edens_dust",
+        "stream": true
+      }
+    ]
+  },
+  "charming": {
+    "sounds": [
+      {
+        "name": "tutorialmod:charming",
+        "stream": true
+      }
+    ]
+  },
+  "just_better": {
+    "sounds": [
+      {
+        "name": "tutorialmod:just_better",
+        "stream": true
+      }
+    ]
+  },
+  "kill_me": {
+    "sounds": [
+      {
+        "name": "tutorialmod:kill_me",
+        "stream": true
+      }
+    ]
+  },
+  "feeling_good": {
+    "sounds": [
+      {
+        "name": "tutorialmod:feeling_good",
+        "stream": true
+      }
+    ]
+  },
+  "we_are_one": {
+    "sounds": [
+      {
+        "name": "tutorialmod:we_are_one",
+        "stream": true
+      }
+    ]
   }
 }

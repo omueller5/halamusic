@@ -5,12 +5,16 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.CactusBlock;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.util.Identifier;
 import net.owen.tutorialmod.block.Custom.CornCropBlock;
 import net.owen.tutorialmod.block.Custom.TomatoCropBlock;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItems;
+
+import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -63,11 +67,23 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         itemModelGenerator.register(ModItems.I_PROMISE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FAR_AWAY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WORSHIP_ME_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WE_ALL_KNOW_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EDENS_DUST_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHARMING_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JUST_BETTER_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KILL_ME_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FEELING_GOOD_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WE_ARE_ONE_MUSIC_DISC, Models.GENERATED);
 
 
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
+
+        itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
     }
 }
