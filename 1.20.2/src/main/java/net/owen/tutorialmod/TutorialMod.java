@@ -3,7 +3,6 @@ package net.owen.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.entity.ModEntities;
