@@ -10,6 +10,7 @@ import net.owen.tutorialmod.entity.ModEntities;
 import net.owen.tutorialmod.entity.custom.PorcupineEntity;
 import net.owen.tutorialmod.item.ModItemGroups;
 import net.owen.tutorialmod.item.ModItems;
+import net.owen.tutorialmod.recipe.ModRecipes;
 import net.owen.tutorialmod.screen.ModScreenHandlers;
 import net.owen.tutorialmod.sound.ModSounds;
 import net.owen.tutorialmod.util.ModCustomTrades;
@@ -40,6 +41,8 @@ public class TutorialMod implements ModInitializer {
 
 		ModEntities.registerModEntities();
 		ModScreenHandlers.registerScreenHandlers();
+
+		ModRecipes.registerRecipes();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
