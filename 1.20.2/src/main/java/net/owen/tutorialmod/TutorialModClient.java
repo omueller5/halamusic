@@ -4,12 +4,15 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.entity.ModEntities;
 import net.owen.tutorialmod.entity.client.ModModelLayers;
 import net.owen.tutorialmod.entity.client.PorcupineModel;
 import net.owen.tutorialmod.entity.client.PorcupineRenderer;
+import net.owen.tutorialmod.screen.GemPolishingScreen;
+import net.owen.tutorialmod.screen.ModScreenHandlers;
 
 public class TutorialModClient implements ClientModInitializer {
     @Override
@@ -25,5 +28,7 @@ public class TutorialModClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
+
+        HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
     }
 }

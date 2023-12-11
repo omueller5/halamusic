@@ -3,7 +3,6 @@ package net.owen.tutorialmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -13,8 +12,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.owen.tutorialmod.TutorialMod;
-import net.owen.tutorialmod.block.Custom.CornCropBlock;
-import net.owen.tutorialmod.block.Custom.TomatoCropBlock;
+import net.owen.tutorialmod.block.custom.CornCropBlock;
+import net.owen.tutorialmod.block.custom.GemPolishingStationBlock;
+import net.owen.tutorialmod.block.custom.TomatoCropBlock;
 import net.owen.tutorialmod.block.custom.SoundBlock;
 import net.owen.tutorialmod.sound.ModSounds;
 
@@ -63,6 +63,9 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

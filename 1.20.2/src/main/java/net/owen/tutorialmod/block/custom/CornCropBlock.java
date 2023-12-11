@@ -1,4 +1,4 @@
-package net.owen.tutorialmod.block.Custom;
+package net.owen.tutorialmod.block.custom;
 
 import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
@@ -12,8 +12,6 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.owen.tutorialmod.item.ModItems;
-
-import javax.swing.plaf.PanelUI;
 
 public class CornCropBlock extends CropBlock {
     public static final int FIRST_STAGE_MAX_AGE = 7;

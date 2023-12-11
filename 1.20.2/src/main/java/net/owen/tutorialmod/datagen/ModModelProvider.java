@@ -2,15 +2,14 @@ package net.owen.tutorialmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.CactusBlock;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
-import net.owen.tutorialmod.block.Custom.CornCropBlock;
-import net.owen.tutorialmod.block.Custom.TomatoCropBlock;
+import net.owen.tutorialmod.block.custom.CornCropBlock;
+import net.owen.tutorialmod.block.custom.TomatoCropBlock;
 import net.owen.tutorialmod.block.ModBlocks;
 import net.owen.tutorialmod.item.ModItems;
 
@@ -46,6 +45,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3 ,4 ,5, 6, 7, 8);
 
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA, ModBlocks.POTTED_DAHLIA, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
     }
 
     @Override

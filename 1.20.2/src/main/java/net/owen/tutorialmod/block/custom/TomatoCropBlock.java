@@ -1,4 +1,4 @@
-package net.owen.tutorialmod.block.Custom;
+package net.owen.tutorialmod.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
