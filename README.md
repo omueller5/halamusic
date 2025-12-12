@@ -58,10 +58,10 @@ https://modrinth.com/mod/halacg-music
 ## 📸 Screenshots
 
 ### Ruby Armor
-![Ruby Armor](images/MC2.png)
+![Ruby Armor](1.20.2/images/MC2.png)
 
 ### All Items & Blocks
-![Items and Blocks](images/MC1.png)
+![Items and Blocks](1.20.2/images/MC1.png)
 
 ### Gem Polishing Station
-![Gem Polishing Station](images/MC3.png)
+![Gem Polishing Station](1.20.2/images/MC3.png)
