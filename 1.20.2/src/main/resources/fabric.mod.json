@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "HalaMusic",
+	"description": "This is a mod introducing custom music discs :)",
+	"authors": [
+		"Owen!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.owen.tutorialmod.TutorialMod"
+		],
+		"client": [
+			"net.owen.tutorialmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.owen.tutorialmod.TutorialModDataGenerator"
+		],
+		"rei_client": [
+			"net.owen.tutorialmod.compat.TutorialModREIClientPlugin"
+		],
+		"terrablender": [
+			"net.owen.tutorialmod.world.biome.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+  "depends": {
+    "minecraft": "1.20.4",
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  },
+	"suggests": {
+		"another-mod": "*"
+	}
+}
