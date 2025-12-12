@@ -1,8 +1,8 @@
-# HalaMusic – Fabric Mod for Minecraft 1.20.2+
+# HalaMusic – Fabric Mod for Minecraft 1.20.4
 
-[![Minecraft 1.20.2](https://img.shields.io/badge/Minecraft-1.20.2-brightgreen.svg)](https://www.minecraft.net/)
+[![Minecraft 1.20.4](https://img.shields.io/badge/Minecraft-1.20.4-brightgreen.svg)](https://www.minecraft.net/)
 [![Fabric Loader](https://img.shields.io/badge/Mod%20Loader-Fabric-blue.svg)](https://fabricmc.net/)
-[![Java 17](https://img.shields.io/badge/Java-17-orange.svg)](https://adoptium.net/)
+[![Java 21](https://img.shields.io/badge/Java-121-orange.svg)](https://adoptium.net/)
 [![Music © HalaCG](https://img.shields.io/badge/Music%20License-%C2%A9%20HalaCG-purple.svg)](https://www.youtube.com/channel/UCFbfFv3bjWctmO2IQoHLiHg)
 
 HalaMusic is a lightweight Fabric mod that adds new minerals, tools, armor, and custom music discs inspired by the work of the artist **HalaCG**.  
