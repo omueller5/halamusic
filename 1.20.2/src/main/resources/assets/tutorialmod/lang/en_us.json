@@ -2,6 +2,7 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "item.tutorialmod.metal_detector": "Metal Detector",
+
   "item.tutorialmod.i_promise_music_disc": "I Promise Music Disc",
   "item.tutorialmod.i_promise_music_disc.desc": "HalaCG x Chira [Genshin Impact Furina Original Song]",
   "item.tutorialmod.far_away_music_disc": "Far Away Music Disc",
@@ -25,11 +26,6 @@
 
   "item.tutorialmod.tomato": "Tomato",
   "item.tutorialmod.coal_briquette": "Coal Briquette",
-  "item.tutorialmod.tomato_seeds": "Tomato Seeds",
-  "item.tutorialmod.corn": "Corn",
-  "item.tutorialmod.corn_seeds": "Corn Seeds",
-
-  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
   "item.tutorialmod.ruby_staff": "Ruby Staff",
 
@@ -43,11 +39,30 @@
   "item.tutorialmod.ruby_chestplate": "Ruby Chestplate",
   "item.tutorialmod.ruby_leggings": "Ruby Leggings",
   "item.tutorialmod.ruby_boots": "Ruby Boots",
+  "item.tutorialmod.tomato_seeds": "Tomato Seeds",
+
+  "item.tutorialmod.corn": "Corn",
+  "item.tutorialmod.corn_seeds": "Corn Seeds",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+
+  "item.tutorialmod.chestnut_boat": "Chestnut Boat",
+  "item.tutorialmod.chestnut_chest_boat": "Chestnut Chest Boat",
+
+  "item.tutorialmod.dice": "Dice",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.tutorialmod.end_stone_ruby_ore": "End Stone Ruby Ore",
+
   "block.tutorialmod.sound_block": "Sound Block",
-  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
 
   "block.tutorialmod.ruby_stairs": "Ruby Stairs",
   "block.tutorialmod.ruby_slab": "Ruby Slab",
@@ -61,14 +76,27 @@
 
   "block.tutorialmod.dahlia": "Dahlia",
 
+  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
+
+  "block.tutorialmod.chestnut_log": "Chestnut Log",
+  "block.tutorialmod.chestnut_wood": "Chestnut Wood",
+  "block.tutorialmod.stripped_chestnut_log": "Stripped Chestnut Log",
+  "block.tutorialmod.stripped_chestnut_wood": "Stripped Chestnut Wood",
+  "block.tutorialmod.chestnut_planks": "Chestnut Planks",
+  "block.tutorialmod.chestnut_leaves": "Chestnut Leaves",
+
+  "block.tutorialmod.chestnut_standing_sign": "Chestnut Standing Sign",
+  "block.tutorialmod.chestnut_wall_sign": "Chestnut Wall Sign",
+
+  "block.tutorialmod.chestnut_hanging_sign": "Chestnut Hanging Sign",
+  "block.tutorialmod.chestnut_wall_hanging_sign": "Chestnut Wall Hanging Sign",
+
+  "block.tutorialmod.chestnut_sapling": "Chestnut Sapling",
+
   "entity.minecraft.villager.sound_master": "Soundmaster",
 
-  "block.tutorialmod.ruby_ore": "Ruby Ore",
-  "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
-  "block.tutorialmod.end_stone_ruby_ore": "End Stone Ruby Ore",
-
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
+
   "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
